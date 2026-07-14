@@ -16,12 +16,17 @@ import mx.utng.utngrunner.domain.model.Player
 import mx.utng.utngrunner.domain.usecase.GetHighScoreUseCase
 import mx.utng.utngrunner.domain.usecase.SaveHighScoreUseCase
 
+enum class HapticType { JUMP, HIT }
+
 class GameViewModel(
     private val getHighScore: GetHighScoreUseCase,
     private val saveHighScore: SaveHighScoreUseCase,
     private val heartRateSource: HeartRateDataSource
 ) : ViewModel() {
  
+    private val _hapticEvents = kotlinx.coroutines.channels.Channel<HapticType>()
+    val hapticEvents = kotlinx.coroutines.flow.receiveAsFlow(_hapticEvents)
+
     private val _state = MutableStateFlow(GameState())
     val state: StateFlow<GameState> = _state.asStateFlow()
  
@@ -58,6 +63,7 @@ class GameViewModel(
                     _state.update { it.copy(player = it.player.copy(
                         velocityY = Player.JUMP_VELOCITY, isJumping = true
                     ))}
+                    _hapticEvents.trySend(HapticType.JUMP)
                 }
             }
             else -> {}
