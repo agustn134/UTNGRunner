@@ -9,7 +9,7 @@
 ### Datos del Alumno
 * **Nombre:** Agustin Lopez Parra
 * **Grupo:** GIDS6093
-* **Repositorio:** [github.com/agustn134/UTNGRunner](https://github.com/agustn134/UTNGRunner) *(Recuerda actualizar este enlace con tu usuario real)*
+* **Repositorio:** [github.com/agustn134/UTNGRunner](https://github.com/agustn134/UTNGRunner) 
 
 ---
 
