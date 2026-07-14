@@ -1,4 +1,4 @@
-# 🎮 UTNG Runner
+# UTNG Runner
 
 **Guía Completa de Desarrollo para Wear OS**  
 *Arquitectura Limpia · Compose for Wear OS · Buenas Prácticas*  
@@ -6,7 +6,7 @@
 
 ---
 
-### 👨‍💻 Datos del Alumno
+### Datos del Alumno
 * **Nombre:** Agustin Lopez Parra
 * **Grupo:** GIDS6093
 * **Repositorio:** [github.com/agustn134/UTNGRunner](https://github.com/agustn134/UTNGRunner) *(Recuerda actualizar este enlace con tu usuario real)*
@@ -35,6 +35,11 @@ https://github.com/agustn134/UTNGRunner/commit/c331ca753a9c2f5bd38f167c5911b0f97
 
 
 Este proyecto implementa el juego **UTNG Runner** directamente en un reloj Wear OS usando *Compose for Wear OS*, arquitectura MVVM limpia, principio de responsabilidad única y separación de capas. Al terminar, tendrás una app publicable en Google Play.
+
+<img width="230" height="254" alt="{853FFDD7-D449-439B-99C3-413C19794D0F}" src="https://github.com/user-attachments/assets/4fdde432-01ee-44f8-a07c-23ce754cd891" />
+
+<img width="259" height="305" alt="{A32EC34A-BC55-4B2B-BEA0-10B56D3CCE94}" src="https://github.com/user-attachments/assets/b1d4e198-136c-4054-b982-eced1f90a7d9" />
+
 
 ## 1. Visión General del Proyecto
 
