@@ -13,6 +13,27 @@
 
 ---
 
+https://github.com/agustn134/UTNGRunner/commits/main/
+
+COMMITS:
+
+https://github.com/agustn134/UTNGRunner/commit/c3f8c92d2bb8202622791287000babf072d710d7
+
+https://github.com/agustn134/UTNGRunner/commit/a9f3a8651517e865556883da5d731bc0309d91f4
+
+https://github.com/agustn134/UTNGRunner/commit/921faabe01b674ddd78a7467a8ee0d8f0dc020a8
+
+https://github.com/agustn134/UTNGRunner/commit/3db079d5b31040315093ba5681ccbbfeef43f158
+
+https://github.com/agustn134/UTNGRunner/commit/7b7ae660a0cd60d9f1d5eb11c1eba60db8515ca7
+
+https://github.com/agustn134/UTNGRunner/commit/5fcd93bc738ff301660d694c3cd68804da303938
+
+https://github.com/agustn134/UTNGRunner/commit/c11e603c43e7217795819a35b7b54f90aa9833aa
+
+https://github.com/agustn134/UTNGRunner/commit/c331ca753a9c2f5bd38f167c5911b0f97709d5e4
+
+
 Este proyecto implementa el juego **UTNG Runner** directamente en un reloj Wear OS usando *Compose for Wear OS*, arquitectura MVVM limpia, principio de responsabilidad única y separación de capas. Al terminar, tendrás una app publicable en Google Play.
 
 ## 1. Visión General del Proyecto
